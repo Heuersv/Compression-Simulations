@@ -47,8 +47,8 @@ def compression_results(signal, alpha, beta, window_params, list_of_coefnumbers)
     # Gabor Frame and window function
     # number_of_frequencies = int(length_signal/beta)
     # length_for_gabor = gabimagepars(length_signal, int(length_signal/alpha), number_of_frequencies)[2]
-    alpha, number_of_frequencies, length_for_gabor, bla1, bla2 = \
-        gabimagepars(length_signal, int(length_signal / alpha), int(length_signal / beta))
+    alpha, number_of_frequencies, length_for_gabor = \
+        gabimagepars(length_signal, int(length_signal / alpha), int(length_signal / beta))[0:3]
 
     # Window and dual window
     if window_params[0] == 'gauss':
