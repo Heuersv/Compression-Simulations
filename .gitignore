@@ -1,0 +1,5 @@
+archive/*
+results/numpy_data/*
+
+.idea/*
+*.pyc
