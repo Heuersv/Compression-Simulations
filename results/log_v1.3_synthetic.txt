@@ -1,0 +1,13 @@
+Gaussian window, p: 0.05687913075594935
+Spline of order 1, p: 0.9318431501733179
+Spline of order 2, p: 0.4538384189629128
+Spline of order 3, p: 0.4169761131590892
+Spline of order 4, p: 0.3067897503781763
+Spline of order 5, p: 0.25400723671779174
+Spline of order 6, p: 0.206638346962553
+Spline of order 7, p: 0.17153443027169932
+Spline of order 8, p: 0.13664087522458265
+Spline of order 9, p: 0.13396392958310951
+Spline of order 10, p: 0.11474182863812848
+1.715102195739746 seconds for Gaussian window
+11.003685712814331 seconds for all spline windows

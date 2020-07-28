@@ -61,7 +61,9 @@ if __name__ == '__main__':
     np.save('results/numpy_data/gauss_' + cfg.version + '.npy', results, allow_pickle=True)
     # Plot
     if args.plot_results:
-        plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results], label='Gaussian')
+        plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results],
+                 label='Gaussian',
+                 linestyle='solid')
     end_time_gaussian = time.time()
 
     # Get results for all splines
@@ -78,7 +80,8 @@ if __name__ == '__main__':
         # Plot
         if args.plot_results:
             plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results],
-                     label='Spline order ' + str(spline_order))
+                     label='Spline order ' + str(spline_order),
+                     linestyle=(0,(spline_order * 2, 1, 1, 1)))
     end_time_splines = time.time()
 
     # Compare times.
