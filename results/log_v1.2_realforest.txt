@@ -1,0 +1,5 @@
+Spline of order 1, p: 1.7632222763267933
+Spline of order 2, p: 1.754951322309784
+Spline of order 3, p: 1.7515907349742204
+Spline of order 4, p: 1.7489484811658156
+159398.95252084732 seconds for all spline windows

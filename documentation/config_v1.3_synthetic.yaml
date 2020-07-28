@@ -1,0 +1,7 @@
+Signal: synthetic
+Step size time: 10
+Step size Frequency: 10
+Highest Spline order: 10
+Spline window length: 180
+Minimum portion of Coefficients: 0.05
+Maximum portion of Coefficients: 0.25

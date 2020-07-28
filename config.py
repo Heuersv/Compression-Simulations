@@ -1,7 +1,7 @@
 import oyaml as yaml
 import os
 
-version = 'v1.2_real'
+version = 'v1.3_real'
 
 signal = 'real'
 alpha = 130
