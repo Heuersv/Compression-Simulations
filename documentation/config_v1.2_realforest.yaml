@@ -1,7 +1,0 @@
-Signal: real
-Step size time: 130
-Step size Frequency: 130
-Highest Spline order: 4
-Spline window length: 800
-Minimum portion of Coefficients: 0.05
-Maximum portion of Coefficients: 0.25
