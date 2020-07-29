@@ -79,9 +79,16 @@ if __name__ == '__main__':
                 allow_pickle=True)
         # Plot
         if args.plot_results:
-            plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results],
-                     label='Spline order ' + str(spline_order),
-                     linestyle=(0,(spline_order * 2, 1, 1, 1)))
+            if cfg.signal == 'synthetic':
+                # Only show every other plot (too many plots otherwise)
+                if spline_order in [1,3,5,7,9]:
+                    plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results],
+                             label='Spline order ' + str(spline_order),
+                             linestyle=(0,(spline_order, 1, 1, 1)))
+            else:
+                plt.plot([np.log(res[0]) for res in results], [np.log(res[1]) for res in results],
+                         label='Spline order ' + str(spline_order),
+                         linestyle=(0, (spline_order * 2, 1, 1, 1)))
     end_time_splines = time.time()
 
     # Compare times.
