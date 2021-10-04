@@ -1,0 +1,8 @@
+Gaussian window, tfr: 0.5 p: 0.10307749327247177
+Gaussian window, tfr: 0.75 p: 0.07142728682993471
+Gaussian window, tfr: 1.0 p: 0.056879554764465
+Gaussian window, tfr: 1.25 p: 0.05424897598709323
+Gaussian window, tfr: 1.5 p: 0.05775362240756475
+Gaussian window, tfr: 1.75 p: 0.06428379329034217
+Gaussian window, tfr: 2.0 p: 0.07168926307373796
+11.456822156906128 seconds for Gaussian window
